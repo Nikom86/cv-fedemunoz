@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Gudea';
+  src: url(font/Gudea-Regular.ttf);
+}
+
+body {
+  font-size: 22px;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 50px;
+}
+.nav {
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+.btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-inline: 2px;
+  text-transform: uppercase;
+  min-width: 250px;
+}
+.btn:hover {
+  background-color: rgba(224, 224, 224, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+a :link, 
+:visited, 
+:hover, 
+:active {
+  color: black;
+  text-decoration: none;
+}
+.img-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.ptb-6 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bg-header-img {
+  background-image: url(img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-exp-lab {
+  background-image: url(img/exp-lab-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-contact{
+  background-image: url(img/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-skew {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #afd5e0;
+  position: relative;
+  z-index: 1;
+}
+.bg-skew::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: inherit;
+  transform: skew(0, -2deg);
+  transform-origin: top left;
+}
+.bg-skew::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: inherit;
+  transform: skew(0, -2deg);
+  transform-origin: bottom right;
+}
+.bg-skew-dif {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #68c3de;
+  position: relative;
+  z-index: 1;
+}
+.bg-skew-dif::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: inherit;
+  transform: skew(0, -2deg);
+  transform-origin: top left;
+}
+.bg-skew-dif::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: inherit;
+  transform: skew(0, -2deg);
+  transform-origin: bottom right;
+}
