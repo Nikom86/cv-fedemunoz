@@ -3,3 +3,6 @@ Ejercicio práctico para el curso Argentina Programa 4.0, sobre HTML, CSS y Java
 
 v-0.1
 Se hizo la estructura básica de la web con HTML y se le agrego fondos y colores con css.
+
+v-0.2
+Se agrego un formulario de contacto y se cambio la paleta de colores.
