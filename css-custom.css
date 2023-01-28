@@ -2,7 +2,6 @@
   font-family: 'Gudea';
   src: url(font/Gudea-Regular.ttf);
 }
-
 body {
   font-size: 22px;
   background-repeat: no-repeat;
@@ -10,38 +9,65 @@ body {
 h1 {
   font-size: 50px;
 }
-.nav {
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-}
-.btn {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  margin-inline: 2px;
-  text-transform: uppercase;
-  min-width: 250px;
-}
-.btn:hover {
-  background-color: rgba(224, 224, 224, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0);
-}
-a :link, 
-:visited, 
-:hover, 
-:active {
-  color: black;
-  text-decoration: none;
+.ptb-6 {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .img-profile {
   width: 300px;
   height: 300px;
   border-radius: 150px;
 }
-.ptb-6 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+
+/* Barra de menú */
+
+.btn {
+  color: white;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  min-width: 250px;
+  letter-spacing: 0.3em;
 }
+.btn:hover {
+  color: #853400;
+  background-color: #ff9800;
+  border-radius: 0px;
+}
+.nav {
+  background-color: #c06500;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/* Formulario de contacto */
+
+textarea,
+input {
+  font-size: 16px;
+  border: 1px solid #c06500;
+}
+textarea {
+  min-height: 60px;
+}
+textarea:focus,
+input:focus{
+  text-indent: 6px;
+  border-color: #c06500;
+}
+.boton-contacto {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 100px;
+  background-color: #c06500;
+  border: 0px;
+}
+
+/* Fondos de las secciones */
+
 .bg-header-img {
   background-image: url(img/header_bg.png);
   background-repeat: no-repeat;
@@ -61,9 +87,10 @@ a :link,
 }
 
 .bg-skew {
+  color: #853400;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #afd5e0;
+  background: #ffcc50;
   position: relative;
   z-index: 1;
 }
@@ -92,9 +119,10 @@ a :link,
   transform-origin: bottom right;
 }
 .bg-skew-dif {
+  color: #853400;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #68c3de;
+  background: #ffff89;
   position: relative;
   z-index: 1;
 }
