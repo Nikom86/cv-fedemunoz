@@ -6,3 +6,6 @@ Se hizo la estructura básica de la web con HTML y se le agrego fondos y colores
 
 v-0.2
 Se agrego un formulario de contacto y se cambio la paleta de colores.
+
+v-0.3
+Se agrego mensaje al formulario de contacto con JavaScript
