@@ -3,6 +3,7 @@
   src: url(font/Gudea-Regular.ttf);
 }
 body {
+  color: #853400;
   font-size: 22px;
   background-repeat: no-repeat;
 }
@@ -25,7 +26,6 @@ h1 {
   color: white;
   font-size: 0.6em;
   text-transform: uppercase;
-  min-width: 250px;
   letter-spacing: 0.3em;
 }
 .btn:hover {
