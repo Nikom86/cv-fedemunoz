@@ -9,3 +9,6 @@ Se agrego un formulario de contacto y se cambio la paleta de colores.
 
 v-0.3
 Se agrego mensaje al formulario de contacto con JavaScript
+
+v-0.4
+Agregado de íconos con Font Awesome 
